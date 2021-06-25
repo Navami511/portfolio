@@ -1,0 +1,53 @@
+.profile-card{
+    height: 400px;
+    width:400px;
+    background-color: #FAE6FA;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 50px;
+
+}
+.profile-card:hover{
+    transform: scale(1.3);
+}
+.card-header{
+    padding: 25px 25px;
+}
+.picture{
+    display: inline;
+    
+}
+.picture img{
+    height:200px;
+    width: 200px;
+    display: block;
+    align-items: center;
+    margin-left: 75px;
+}
+.name{
+    font-size: 20px;
+    font-family: lato;
+}
+.desc{
+    font-size: 20px;
+    font-family: lato;
+}
+ul li{
+    list-style-type: none;
+    
+}
+ul li a img{
+    padding:10px;
+    padding-bottom: 20px;
+    display: inline;
+    align-items: center;
+    float: left;
+    
+}
+.soc-icons{
+    margin-left: 80px;
+     
+     
+}

@@ -1,0 +1,28 @@
+.input{
+    margin-left: 250px;
+    float:left;
+    margin-top: 55px;
+}
+.submit-btn{
+    margin-left: 250px;
+    float:left;
+    margin-top: 25px;
+    height:50pxpx;
+    width:150px;
+    font-size: 30px;
+    font-family: lato;
+    background-color: #006994;
+}
+.input-field-sug{
+    height: 100px;
+    width: 500px;
+}
+.input-field{
+    height: 20px;
+    width: 300px;
+}
+.input{
+    font-size: 20px;
+    font-family: lato;
+    padding: 25px;
+}

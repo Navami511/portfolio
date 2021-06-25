@@ -1,0 +1,12 @@
+.main{
+    padding-left: 500px;
+   
+    font-family: Lato;
+    font-size: 25px;
+    color:black ;
+    
+    margin-top: 80px;
+}
+.active{
+    background:blanchedalmond;
+}

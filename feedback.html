@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio|Feedback </title>
+    <link rel="stylesheet" href=feedback.css type="text/css">
+    <link rel="stylesheet" href=index.css type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+    <div class="navbar">
+    
+        <div class=logo><img src=logofinal.png height="100px" width="250px">
+     
+            <ul>
+                <li><i class="material-icons">home</i></li>
+                <li><a href=index.html>Home</a></li>
+                <li><i class="material-icons">description</i></li>
+                <li ><a href=aboutme.html>About Me</a></li>
+                <li><i class="material-icons">stream</i></li>
+                <li><a href=contact.html>Contact Me</a></li>
+                <li><i class="material-icons">school</i></li>
+                <li><a href=education.html>Education</a></li>
+                <li><i class="material-icons">perm_identity</li></i>
+                <li><a href=work.html>Profile Card</a></li>
+                <li><i class="material-icons" >feedback</i>
+                  <li class="active"><a href=feedback.html>Feedback Form</a></li>
+                </ul>
+         </div>
+     </div>
+    <form class=input>
+         <label>Full Name</label>
+         <input type="text" class="input-field" required><br>
+         <label>Enter Email ID</label>
+         <input type="email" class="input-field" required><br>
+         <label>Enter Mobile No</label>
+         <input type="text" class="input-field" required><br>
+         <label>Gender</label><br>
+         <input type="radio" class="input-field-gen" value="male"><label>Male</label><br>
+         <input type="radio" class="input-field-gen" value="female"><label>Female</label><br>
+         <input type="radio" class="input-field-gen" value="others"><label>Others</label><br>
+         <label>Rate the portfolio on a scale of 10(taking 1 as bad to 10 as excellent)</label>
+         <input type="text" class="input-field" required><br>
+         <label>Any suggestion</label><br>
+         <input type="text" class="input-field-sug"><br>
+         <button onclick="submit()" class="submit-btn">Submit</button>
+         
+    </form>
+    <script>
+        function submit(){
+        window.alert("Submitted successfully")
+        }      
+    </script>
+    <div class=footer>
+        <h4>Copyright </h4>
+    </div>
+</body>
+</html>    
