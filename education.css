@@ -1,10 +1,32 @@
 .edu{
     
-    padding-left: 500px;
+    padding-left: 50px;
     font-family: Lato;
     font-size: 30px;
     color: black; ;
     margin-right: 25px;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 100px;
+}
+.cert{
+    font-size: 30px;
+    font-family: roboto;
+    text-align: center;
+}
+.store ul{
+    float: left;
+}
+.store ul li{
+    
+    display: inline-block;
+    list-style: none;
+}
+
+.store ul li a{
+    
+    padding: 40px 40px;
+}
+
+.store ul li :hover{
+    transform: scale(2.0);
 }
